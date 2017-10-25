@@ -2,36 +2,37 @@ using System.IO;
 using OfficeOpenXml;
 using OfficeOpenXml.Table;
 using System.Linq;
+using System.Collections.Generic;
+using System.Data;
 
 public class ExcelFileHandler {
 
     private string fileName = "report.xlsx";
 
-    public ReadExcel()
+    public IEnumerable<AccountDataRow> ReadExcel()
     {
         var package = new ExcelPackage(new FileInfo(fileName));
  
         ExcelWorksheet workSheet = package.Workbook.Worksheets[1];
         
         // Read source excel file
-        DataTable dt = new DataTable();
-        dt=package.ToDataTable();
-        List<DataRow> listOfRows = new List<DataRow>();
-        listOfRows = dt.AsEnumerable().ToList();
+        var dt=package.ToDataTable();
+        var listOfRows = dt.AsEnumerable();
+
+        for (int rowIndex = workSheet.Dimension.Start.Row; rowIndex <= workSheet.Dimension.End.Row; rowIndex++)
+        {
+            
+        }
+
+
 
         var listOfAccounts = listOfRows.Select(r => new AccountDataRow()
         {
-            ID = listOfRows["ID"];
-            accountName = listOfRows["AccountName"];
+            ID = listOfRows["ID"],
+            accountName = listOfRows["AccountName"]
         });
 
-        // Print value of internal object
-        for (int i=0, i <= listOfAccounts.Rows.Count, i++)
-        {
-            Console.WriteLine(listOfAccounts[i].ID);
-            Console.WriteLine(listOfAccounts[i].accountName);
-        }
-
+        return listOfAccounts;
     }
 
     public ExcelPackage createExcelPackage()
