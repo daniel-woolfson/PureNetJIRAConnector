@@ -1,6 +1,7 @@
 using System.IO;
 using OfficeOpenXml;
 using OfficeOpenXml.Table;
+using System.Linq;
 
 public class ExcelFileHandler {
 
@@ -18,14 +19,11 @@ public class ExcelFileHandler {
         List<DataRow> listOfRows = new List<DataRow>();
         listOfRows = dt.AsEnumerable().ToList();
 
-        // Write to internal objects
-        List<AccountDataRow> listOfAccounts = new List<AccountDataRow>;
-
-        for (int i=0, i <= listOfRows.Rows.Count, i++)
+        var listOfAccounts = listOfRows.Select(r => new AccountDataRow()
         {
-            listOfAccounts[i].ID = listOfRows["ID"];
-            listOfAccounts[i].accountName = listOfRows["AccountName"];
-        }
+            ID = listOfRows["ID"];
+            accountName = listOfRows["AccountName"];
+        });
 
         // Print value of internal object
         for (int i=0, i <= listOfAccounts.Rows.Count, i++)

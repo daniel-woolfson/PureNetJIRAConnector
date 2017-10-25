@@ -15,6 +15,15 @@ namespace PureNetJIRAConnectorConsole
             
             excelFileHandler.createExcelPackage();
             excelFileHandler.SaveFile();
+
+            foreach(AccountDataRow adr in excelFileHandler.ReadExcel())
+            {
+                Console.WriteLine(adr.ID);
+                Console.WriteLine(adr.accountName);
+            }
+
+            
+            
         }
 
     }
