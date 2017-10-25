@@ -1,0 +1,10 @@
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\bin\Debug\netcoreapp2.0\PureNetJIRAConnector.deps.json
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\bin\Debug\netcoreapp2.0\PureNetJIRAConnector.runtimeconfig.json
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\bin\Debug\netcoreapp2.0\PureNetJIRAConnector.runtimeconfig.dev.json
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\bin\Debug\netcoreapp2.0\PureNetJIRAConnector.dll
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\bin\Debug\netcoreapp2.0\PureNetJIRAConnector.pdb
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\obj\Debug\netcoreapp2.0\PureNetJIRAConnector.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\obj\Debug\netcoreapp2.0\PureNetJIRAConnector.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\obj\Debug\netcoreapp2.0\PureNetJIRAConnector.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\obj\Debug\netcoreapp2.0\PureNetJIRAConnector.dll
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnector\obj\Debug\netcoreapp2.0\PureNetJIRAConnector.pdb

@@ -1,0 +1,10 @@
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\bin\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.deps.json
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\bin\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.runtimeconfig.json
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\bin\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.runtimeconfig.dev.json
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\bin\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.dll
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\bin\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.pdb
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\obj\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.csproj.CoreCompileInputs.cache
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\obj\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.AssemblyInfoInputs.cache
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\obj\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.AssemblyInfo.cs
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\obj\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.dll
+C:\Users\Daniel\Documents\Git Repositories\PureNetJIRAConnectorConsole\obj\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.pdb
