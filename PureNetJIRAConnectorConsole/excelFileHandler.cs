@@ -9,31 +9,24 @@ public class ExcelFileHandler {
 
     private string fileName = "report.xlsx";
 
-    public IEnumerable<AccountDataRow> ReadExcel()
+    public AccountDataRow ReadExcel()
     {
         var package = new ExcelPackage(new FileInfo(fileName));
  
         ExcelWorksheet workSheet = package.Workbook.Worksheets[1];
-        
-        // Read source excel file
-        var dt=package.ToDataTable();
-        var listOfRows = dt.AsEnumerable();
+
+        var listOfRows = new List<string>();
+        var listOfAccounts = new AccountDataRow();
 
         for (int rowIndex = workSheet.Dimension.Start.Row; rowIndex <= workSheet.Dimension.End.Row; rowIndex++)
         {
-            
-        }
-
-
-
-        var listOfAccounts = listOfRows.Select(r => new AccountDataRow()
-        {
-            ID = listOfRows["ID"],
-            accountName = listOfRows["AccountName"]
-        });
+            listOfAccounts.ID = workSheet.Cells[1, rowIndex].Value.ToString();
+            listOfAccounts.accountName = workSheet.Cells[2, rowIndex].Value.ToString();
+        }   
 
         return listOfAccounts;
     }
+    
 
     public ExcelPackage createExcelPackage()
         {
