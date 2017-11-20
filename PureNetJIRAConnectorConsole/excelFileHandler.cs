@@ -32,7 +32,21 @@ public class ExcelFileHandler
         }
 
 
-        return listOfAccounts;
+        var workSheet = package.Workbook.Worksheets[1];
+        if (workSheet==null) throw new System.Exception("No worksheet found");
+
+        var result = new List<AccountDataRow>();
+>>>>>>> abc02d848899c43984bdf83f7973c740d6ede17b
+
+        for (var rowIndex = workSheet.Dimension.Start.Row; rowIndex <= workSheet.Dimension.End.Row; rowIndex++)
+        {
+            result.Add(new AccountDataRow()
+            {
+                ID = workSheet.Cells[1, rowIndex].Value?.ToString() ?? "", 
+                accountName = workSheet.Cells[2, rowIndex].Value?.ToString() ?? ""
+            });
+        }
+        return result;
     }
 
 

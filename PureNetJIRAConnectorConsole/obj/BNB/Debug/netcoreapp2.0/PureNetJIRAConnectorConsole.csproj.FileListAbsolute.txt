@@ -1,0 +1,10 @@
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\obj\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.csproj.CoreCompileInputs.cache
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\obj\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.AssemblyInfoInputs.cache
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\obj\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.AssemblyInfo.cs
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\bin\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.deps.json
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\bin\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.runtimeconfig.json
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\bin\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.runtimeconfig.dev.json
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\bin\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.dll
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\bin\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.pdb
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\obj\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.dll
+C:\Users\danielwoolfson\Documents\Visual Studio Code\PureNetJIRAConnector\PureNetJIRAConnectorConsole\obj\BNB\Debug\netcoreapp2.0\PureNetJIRAConnectorConsole.pdb

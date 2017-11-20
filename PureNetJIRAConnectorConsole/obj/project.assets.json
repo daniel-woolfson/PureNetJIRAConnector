@@ -4476,30 +4476,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Users\\danielwoolfson\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnectorConsole\\PureNetJIRAConnectorConsole.csproj",
+      "projectUniqueName": "C:\\Users\\danielwoolfson\\Documents\\Visual Studio Code\\PureNetJIRAConnector\\PureNetJIRAConnectorConsole\\PureNetJIRAConnectorConsole.csproj",
       "projectName": "PureNetJIRAConnectorConsole",
-      "projectPath": "c:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnectorConsole\\PureNetJIRAConnectorConsole.csproj",
-      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnectorConsole\\obj\\",
+      "projectPath": "C:\\Users\\danielwoolfson\\Documents\\Visual Studio Code\\PureNetJIRAConnector\\PureNetJIRAConnectorConsole\\PureNetJIRAConnectorConsole.csproj",
+      "packagesPath": "C:\\Users\\danielwoolfson\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danielwoolfson\\Documents\\Visual Studio Code\\PureNetJIRAConnector\\PureNetJIRAConnectorConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\danielwoolfson\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
