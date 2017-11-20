@@ -8,11 +8,12 @@ using System.Data;
 public class ExcelFileHandler
 {
 
-    private string fileName = "report.xlsx";
+    private string fileName = "accounts.xlsx";
 
     public List<AccountDataRow> ReadExcel()
     {
         var package = new ExcelPackage(new FileInfo(fileName));
+<<<<<<< HEAD
 
         ExcelWorksheet workSheet = package.Workbook.Worksheets[1];
 
@@ -31,6 +32,7 @@ public class ExcelFileHandler
             });
         }
 
+=======
 
         var workSheet = package.Workbook.Worksheets[1];
         if (workSheet==null) throw new System.Exception("No worksheet found");

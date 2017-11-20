@@ -12539,11 +12539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnector.csproj",
+      "projectUniqueName": "c:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnector\\PureNetJIRAConnector.csproj",
       "projectName": "PureNetJIRAConnector",
-      "projectPath": "C:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnector.csproj",
+      "projectPath": "c:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnector\\PureNetJIRAConnector.csproj",
       "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\obj\\",
+      "outputPath": "c:\\Users\\Daniel\\Documents\\Git Repositories\\PureNetJIRAConnector\\PureNetJIRAConnector\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
